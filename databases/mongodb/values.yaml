@@ -1,0 +1,7 @@
+# https://github.com/bitnami/charts/blob/master/bitnami/mongodb/values.yaml
+nameOverride: devholic77
+auth:
+  rootPassword: adminADMIN12!@
+service:
+  type: NodePort
+  nodePort: 30020
