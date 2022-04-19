@@ -1,8 +1,13 @@
 # https://github.com/bitnami/charts/blob/master/bitnami/mysql/values.yaml
-nameOverride: "devholic77"
+nameOverride: devholic77
+architecture: replication
 auth:
-  rootPassword: "adminADMIN12!@"
+  rootPassword: adminADMIN12!@
 primary:
   service:
     type: NodePort
     nodePort: 30010
+secondary:
+  service:
+    type: NodePort
+    nodePort: 30011
