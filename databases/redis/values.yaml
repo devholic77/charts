@@ -1,0 +1,16 @@
+
+  # https://github.com/bitnami/charts/blob/master/bitnami/redis/values.yaml
+nameOverride: devholic77
+architecture: replication
+auth:
+  password: adminADMIN12!@
+master:
+  service:
+    type: NodePort
+    nodePorts: 
+      redis: 30030
+replica:
+  service:
+    type: NodePort
+    nodePorts: 
+      redis: 30031
