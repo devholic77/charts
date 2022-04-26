@@ -1,0 +1,16 @@
+# https://github.com/actions-runner-controller/actions-runner-controller/blob/master/charts/actions-runner-controller/values.yaml
+
+fullnameOverride: runner
+replicaCount: 1
+#githubEnterpriseServerURL: https://github.example.com
+#githubURL: https://github.example.com/api/v1
+#runnerGithubURL: https://github.example.com/api/v1
+
+image:
+  ##actionsRunnerRepositoryAndTag:
+  #actionsRunnerImagePullSecrets:
+  #  - regcred 
+
+authSecret:
+  #create: true
+  #github_token: adfj12312312312312 

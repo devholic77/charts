@@ -1,0 +1,11 @@
+## ArgoCD configuration
+## https://github.com/argoproj/argo-helm/blob/master/charts/argo-cd/values.yaml
+
+server:
+  service:
+    type: NodePort
+    nodePortHttp: 30080
+  secret:
+    argocdServerAdminPassword: admin
+redis-ha:
+  enabled: false
