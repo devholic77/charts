@@ -5,12 +5,13 @@ replicaCount: 1
 #githubEnterpriseServerURL: https://github.example.com
 #githubURL: https://github.example.com/api/v1
 #runnerGithubURL: https://github.example.com/api/v1
+githubEnterpriseServerURL: https://oss.navercorp.com
 
 image:
-  ##actionsRunnerRepositoryAndTag:
-  #actionsRunnerImagePullSecrets:
-  #  - regcred 
+  actionsRunnerRepositoryAndTag: reg.navercorp.com/deokil.kim/runner:latest
+  actionsRunnerImagePullSecrets:
+    - regcred 
 
 authSecret:
-  #create: true
-  #github_token: adfj12312312312312 
+  create: true 
+  github_token: dd3a5ef7c54f4f5ace24c03beb3c097ba9dfc25b
