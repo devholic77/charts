@@ -1,4 +1,4 @@
-### argocd 
+### argoCD
 * github repo : https://github.com/argoproj/argo-helm/tree/master/charts/argo-cd
 * values.yaml : https://github.com/argoproj/argo-helm/blob/master/charts/argo-cd/values.yaml
 
